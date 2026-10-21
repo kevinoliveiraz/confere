@@ -49,7 +49,7 @@ Os testes verificam regras de quantidade, cálculo, ordem, restauração de dado
 
 O botão de lua/sol no cabeçalho alterna os modos claro e escuro, inclusive no celular. A escolha fica salva neste navegador, separada dos dados das contagens. Sem escolha anterior, o tema acompanha a preferência do sistema. O modo escuro inclui tabelas, revisão, diálogos e estados de divergência.
 
-Visual em verde profundo, superfícies claras e contraste por estado: azul para quantidade física maior, terracota para menor e verde para saldos iguais. Há foco de teclado visível, rótulos nos campos, progresso acessível, redução de movimento e layout adaptável a telas pequenas. Em telas estreitas, a tabela de edição permite rolagem horizontal; a revisão permanece sem tabela em qualquer largura. Não usa fontes, bibliotecas ou recursos de rede externos.
+Visual em verde profundo, superfícies claras e contraste por estado: azul para quantidade física maior, terracota para menor e verde para saldos iguais. Há foco de teclado visível, rótulos nos campos, progresso acessível, redução de movimento e layout adaptável a telas pequenas. No celular, cada item aparece como uma ficha com nome, código opcional, unidade e os dois saldos visíveis, sem rolagem horizontal. Os campos são maiores para facilitar o toque, e as ações finais ficam no fluxo da página para não cobrir a edição. A tabela permanece no desktop; a revisão continua em uma tela dedicada em qualquer largura. Não usa fontes, bibliotecas ou recursos de rede externos.
 
 ## Arquivos
 
