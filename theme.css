@@ -209,3 +209,18 @@
   .header nav { order: 3; width: 100%; justify-content: center; }
   .header-end { margin-left: auto; }
 }
+
+@media (max-width: 780px) {
+  [data-theme="dark"] .table-scroll td .item-name,
+  [data-theme="dark"] .table-scroll td .item-code,
+  [data-theme="dark"] .table-scroll td select {
+    background: #111d15; color: var(--ink); border-color: #405335;
+  }
+  [data-theme="dark"] .table-scroll td .item-name:focus,
+  [data-theme="dark"] .table-scroll td .item-code:focus,
+  [data-theme="dark"] .table-scroll td select:focus { background: #17271b; }
+  [data-theme="dark"] .table-scroll tr[data-id].selected { border-color: #537844; }
+  [data-theme="dark"] .table-scroll tr[data-id]:focus-within { border-color: #a4c984; box-shadow: 0 0 0 1px #a4c984; }
+  [data-theme="dark"] .table-scroll tr.selected td:first-child { box-shadow: none; }
+  [data-theme="dark"] .table-scroll .item-name-cell > span.item-code { background: transparent; border: 0; }
+}
